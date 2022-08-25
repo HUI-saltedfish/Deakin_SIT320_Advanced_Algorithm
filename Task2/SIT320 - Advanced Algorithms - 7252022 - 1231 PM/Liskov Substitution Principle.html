@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>SEBE CD TEMPLATE</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?version=202001061835" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe_templates/sebe_cd.css?v=20210208">
+    <link rel="stylesheet" type="text/css" href="/content/deakin-embedded-comments/embeddedComments.css?v=20210208">
+</head>
+
+<body class="basic" style="font-family: verdana, sans-serif;font-size: 12px;">
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p><strong>Read this first</strong></p>
+<p>This template was created by the SEBE Design Pod and is available for your use when creating your content. The template provides a variety of options for styling page text and images. Some tips on using this template:</p>
+<ul>
+<li>The yellow instruction boxes are only visible in edit mode and do not need to be deleted.</li>
+<li>Use the designated heading format i.e. Heading 1 etc. for all headings and subheadings so that the template displays correctly.</li>
+<li>Select and delete the content that you do not need.</li>
+<li>Ensure there is a &lt;HR&gt; (Insert Line from the dropdown next to the Insert Quicklink), between each content type to ensure correct formatting of the next content type.</li>
+</ul>
+<p>There are additional layout options available in the '_SEBE_Advanced' template.</p>
+<p><strong>Important!</strong> This template is designed and tested to work with correctly formatted HTML code. Any deviation from this may result in the template failing to render as it should. For any assistance with HTML formatting, please contact <strong>SEBE CloudDeakin Support</strong>.</p>
+<p>For more information about this template, visit the <strong>Making the most of web pages in SEBE CloudDeakin</strong> page in the <strong>Designing Your Unit</strong> section of the <strong>SEBE Staff Hub</strong>.</p>
+</div>
+<h3>blue</h3>
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p>By changing the Heading 3 above to <strong>default</strong>, <b>blue</b>, <b>turquoise</b> or <b>pink</b> you can change the colour theme of your SEBE CloudDeakin template page.</p>
+<p>When this page is published the Heading 3 above will be removed, but it will still be here in edit mode if you wish to change the colour theme.</p>
+<p>There is no need to delete these instructions or the Heading 3 above. They are only visible in edit mode and will be removed when your page is published.</p>
+</div>
+<!-- Begin Suggested Layout -->
+<h3>banner</h3>
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p>By using the keyword 'banner' as a &lt;H3&gt; (Heading 3), an image below that heading until the next &lt;HR&gt; (Insert Line from the dropdown next to the Insert Quicklink) will be included inside an Image Container that will render the image as a banner image.</p>
+<p>There is no need to delete these instructions or the Heading 3 above. They are only visible in edit mode and will be removed when your page is published.</p>
+</div>
+<p><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.feDqH4OO1gIbZpmZfhzp7QHaHa%26pid%3DApi&amp;f=1" alt="Algorithms: Design and Analysis, Part 1 | Stanford Online" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Inheritance</h3>
+<p>Inheritance is the topic of fundamental importance in object-oriented design. The idea is to keep common code in one class (known as the <strong>parent</strong> or the <strong>super-class</strong>), and only extend it by making derived class (known as <strong>child</strong> or <strong>sub-class</strong>), which can add or modify parent class behaviour.&nbsp;</p>
+<p>A typical example is that if we have to implement various roles for a <strong>Person</strong> in our system. E.g., a <strong>Person</strong> can be a <strong>Student</strong>, or a <strong>Lecturer</strong>, or a <strong>Tutor</strong>. The specialized roles of a Student, Lecturer and Tutor, have common features and functionalities, e.g., they have name/age/ID, they all attend a class, they commute to campus, etc. Some Persons have specialized operations, e.g., <strong>Tutor</strong> and <strong>Lecturer</strong> are being paid, while <strong>Student</strong> can enrol in a class. This is an ideal scenario to implement inheritance, where we make a <strong>Person</strong> class and let <strong>Student</strong>, <strong>Lecturer</strong> and <strong>Tutor</strong> be the derived classes.&nbsp;</p>
+<h3>callout</h3>
+<p>We can use inheritance when we have the case of <span style="color: #cf2a27;"><strong>is-a</strong></span> or <span style="color: #cf2a27;"><strong>is-a-kind</strong></span> relationship between entities. E.g., <strong>Tutor</strong> is a <strong>Person</strong> or <strong>Tutor</strong> is-a-kind of <strong>Person</strong>.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>There, however, is another case when you can use inheritance, and that is just to avoid code duplication. E.g., if we have a <strong>Product</strong> class that looks like:</p>
+<p><img src="File_qmnov6vmuzfknhoox3t80xd2tca07vlf001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="350"></p>
+<p>Well, let us suppose that our requirement changes, and we are to create a new product called <strong>SalesProduct</strong>. Ignoring OCP, we can just create a new class as following:</p>
+<p><img src="File_06242enplt6qercrxpnkkrzjrpbc3po1001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="350"></p>
+<p>which results in lots of code duplication. Better option, would have been to make use of inheritance and just extend the <strong>Product</strong> class as follows:</p>
+<p><img src="File_gcivogtzljy4quuv3rehbax1jwvczqbu001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="350"></p>
+<h3>callout</h3>
+<p>We can use inheritance when we can factor our repeated code, i.e., to create a new class, we can just write the difference between the two classes.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>Let us see what Ollie has to say:</p>
+<h3>lightbox</h3>
+<p><img src="PastedImage_08hwmoafkzbun23jkce71uljm30ayk3u001143113629.jpg" alt="Useful Information" title="Siggi the Studious Stork" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="72" height="72"></p>
+<p>Doesn't these two uses of Inheritance lead to confusion? E.g., I am using the same syntax for inheritance, and I am not sure, if I am doing inheritance for implementing is-a relationship or doing inheritance for factoring-out repeated code.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>Ollie is right. This is one of the dark sides of the way most programming languages (such as C# and Java) implements inheritance. Let us delve into this matter a bit more.&nbsp;</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Inheritance as Sub-Typing</h3>
+<p>Inheritance, when its intended use is to implement <span style="color: #cf2a27;">is-a</span> relationship leads to what is known as <strong>Super-Typing</strong> and <strong>Sub-Typing</strong>. E.g., when</p>
+<ul>
+<li>every Student and Tutor is a Person,</li>
+<li>every Book and CD is a LibraryHolding,</li>
+<li>every Circle and Rhombus is Shape.</li>
+</ul>
+<p>We have created Student, Book and Circle as a Sub-Types, whereas, Person, Library Holding and Shape are Super-Types.</p>
+<p>E.g, if every B is A, as shown in the following figure:</p>
+<p><img src="File_o2872rdpjpregwspvk3uegiraacnphm8001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="50"></p>
+<p>We are implicitly declaring that A is a Super-Type and B is a Sub-Type. For the sake of completeness, let us draw the other cases as well:</p>
+<p><img src="File_vutf4xzqjqvksatju378ul49hrn1om7l001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="150"></p>
+<h3>callout</h3>
+<p>“<span style="color: #cf2a27;"><strong>B</strong> is a subtype of <strong>A</strong></span>” means that “every object that satisfies the rules for a <strong>B</strong> also satisfies the rules for an <strong>A</strong>”.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>As a result of sub-typing, the code that has been written using object <strong>A</strong>'s specification operates correctly even if given an object of class <strong>B</strong>. This simplifies design significantly.&nbsp;</p>
+<p><strong>Sub-Types</strong> are substitutable for <strong>Super-Types</strong> only if:</p>
+<ol>
+<li>Objects of <strong>Sub-Type</strong> won't surprise client by failing to satisfy the <strong>Super-Type's</strong> specification.</li>
+<li>Objects of <strong>Sub-Type</strong> won't surprise client by having more expectations than the <strong>Super-Type's</strong> specification.</li>
+</ol>
+<p>Inheritance as is allowed in modern programming languages can easily break these two requirement. E.g,&nbsp;</p>
+<ol>
+<li>If we can declare members of parent class (so-called Super-Type in this case) as private. The derived class (or so-called Sub-Type), will fail to satisfy the Super-Type's specification.</li>
+<li>Secondly, we can extend the derived class (so-called Sub-Type) by adding more functionality. This will surprise the client as it has more expectations than the Super-Type's specification.</li>
+</ol>
+<p>Let us formally define Sub-Typing now:</p>
+<h3>lightbox</h3>
+<p>Substitution (or Sub-Type) is a specification notion such that class <strong>B</strong> is a subtype of class <strong>A</strong> if and only if an object of class <strong>B</strong> can masquerade as an object of class <strong>A</strong> in any context.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>If our purpose is to implement <span style="color: #cf2a27;"><strong>is-a</strong></span> or <span style="color: #cf2a27;"><strong>is-a-kind</strong></span> relationship, we are definitely creating a Super-Typing and Sub-Typing relationship. However, with the way inheritance is implemented (as discussed earlier, e.g., make attributes/operations private in parent class, or add a new operation in child class, etc.), we break the <strong>Substitution</strong> or <strong>Sub-Typing</strong> definition. This is where <strong>Liskov Substitution Principle</strong> comes into effect. It says that:</p>
+<h3>callout</h3>
+<p>The principle defines that objects of a Super-Type shall be replaceable with objects of its Sub-Type without breaking the application. That requires the objects of your Sub-Type to behave in the same way as the objects of your Super-Type.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>LSP dictates that related classes should conform with each other. A class <strong>S</strong> conforms to class <strong>T</strong>, if an object of class <strong>S</strong> can be provided in any context where an object of class <strong>T</strong> is expected and correctness is still preserved when any accessor method is executed.</p>
+<p>This can be enforced by:</p>
+<ol>
+<li>Avoiding the use of private variables/operations in parent class.</li>
+<li>Avoiding implementing new variables/operations in the the child class.</li>
+<li>Over-ridden methods in the child class should accept the same input and output parameter values as the method of the parent class.&nbsp;</li>
+</ol>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Inheritance as 'Implemented-Inheritance'</h3>
+<p>In absence of any adequate name, we can call&nbsp; the case 'implemented-inheritance' - where we are using inheritance to just extend the functionality of the our parent class. As we discussed earlier, it factors-out repeated code, as we just write the difference in the new class.&nbsp;</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Sub-Typing vs. Implemented-Inheritance</h3>
+<p>It can be seen that sub-typing and implemented-inheritance have two different goals. The problem is that when we use inheritance, we can not enforce or specify that we are doing what. As a programmer and designer, it is your responsibility to be clear about the intention. <strong>Liskov Substitution Principle</strong> can be used as a guiding principle here.&nbsp;</p>
+<p>Let us see in this section, if we can come-up with design programs where we achieve ONLY sub-typing or ONLY implemented-inheritance.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Sub-Typing and NO Implemented Inheritance</h3>
+<p>This is where you must make sure that you are adhering to Liskov Substitution Principle. That is the parent class and child class adheres to the notion of Super-Type and Sub-Type. The best strategy to achieve this is to make sure that dependence exists only on the Abstract entities i.e., <strong>Abstract Class</strong> or <strong>Interface</strong>. Example, if you have a <strong>Lecturer</strong> class, from which <strong>Tutor</strong> class is extended. Let us suppose that so far, all the roles of <strong>Lecturer</strong> are also done by <strong>Tutors</strong>, in this case, we do achieve the super-typing and sub-typing behaviour. However, let suppose that Lecturer now has an additional functionality of <strong>settingExam()</strong>. In this case, use of inheritance is not justified, as we are breaking the super-typing and sub-typing behaviour.&nbsp;</p>
+<p>The solution is to depend on the abstraction (embodied either through Abstract class or Interface). Again, if we have an interface say '<strong>Person</strong>', which is extended (implemented) by the two - <strong>Lecturer</strong> and <strong>Tutor</strong> classes - we have the sub-typing and super-typing behaviour. An interface defines the setttingExam() operation, which is only implemented by the <strong>Lecturer</strong> class. But the any where the reference to super-class is present, we can replace it easily by that of the two sub-classes.</p>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Implemented Inheritance and NO Sub-Typing</h3>
+<p>If your goal is to extend the functionality of the class, inheritance is not the only way you can do it. For example, if we have a Fruit class:</p>
+<p><span style="color: #46a661; font-size: 10pt;">class Fruit {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;"></span></p>
+<p><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; public int Peel() {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; Console.WriteLine("Peeling is appealing.");&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; return 1;&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; }</span><br><span style="color: #46a661; font-size: 10pt;">}</span></p>
+<p>Let us suppose that we want to extend the fruit class, by adding a new function called Cook(), we can extend it as:</p>
+<p><span style="color: #46a661; font-size: 10pt;">class <span style="color: #cf2a27;">c</span>Fruit : Fruit {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;"></span></p>
+<p><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; public int Cook() {&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; Console.WriteLine("Cooking the fruit with " + Peel() + " peels.");&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; return 1;&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; }</span></p>
+<p><span style="color: #46a661; font-size: 10pt;">}</span></p>
+<p>Now, we can call the cFruit from the calling program as:</p>
+<p><span style="color: #46a661; font-size: 10pt;">class Example1 {&nbsp;</span></p>
+<p><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; public static void Main() {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; cFruit f = new cFruit();</span><br><span style="color: #46a661; font-size: 10pt;"></span></p>
+<p><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; f.Cook();</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp;}</span><br><span style="color: #46a661; font-size: 10pt;">}</span></p>
+<p>Definitely a case of implemented-inheritance, is this the only way to achieve the extension behaviour. Well, in this case, inheritance can be avoided all together, e.g, we can create a <strong>cFruit</strong> class as follows (without using inheritance):</p>
+<p><span style="color: #46a661; font-size: 10pt;">class <span style="color: #cf2a27;">c</span>Fruit&nbsp; {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;"></span></p>
+<p><span style="color: #46a661; font-size: 10pt;"><span style="color: #cf2a27;">&nbsp; &nbsp; private Fruit f = new Fruit();&nbsp;</span></span></p>
+<p><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; public int Cook() {&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; Console.WriteLine("Cooking the fruit " + f.Peel() + " peels.");&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; return 1;&nbsp;</span><br><span style="color: #cf2a27; font-size: 10pt;">&nbsp; &nbsp; }</span></p>
+<p><span style="color: #46a661; font-size: 10pt;">}</span></p>
+<p>Now, you can obtain our desired functionality as:</p>
+<p><span style="color: #46a661; font-size: 10pt;">class Example2 {&nbsp;</span></p>
+<p><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; public static void Main() {&nbsp;</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; cFruit f = new cFruit();</span><br><span style="color: #46a661; font-size: 10pt;"></span></p>
+<p><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp; &nbsp; &nbsp; f.Cook();</span><br><span style="color: #46a661; font-size: 10pt;">&nbsp; &nbsp;}</span><br><span style="color: #46a661; font-size: 10pt;">}</span></p>
+<p>This strategy is also called <strong>containment</strong> or <strong>Composition</strong>, and is alternative to inheritance if our only purpose is to extend the functionality of the base class.</p>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Explaining in Video&nbsp;</h3>
+<p>Have a look at the following video if things are not clear at this time:</p>
+<p><iframe src="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1192864&amp;type=lti&amp;rCode=DeakinUniversity-3309283" title="SIT320_Inheritance_Pitfalls" allowfullscreen="" allow="microphone *; camera *; autoplay *" height="402" width="608"></iframe></p>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p></p>
+<h3>Read more at:</h3>
+<ul>
+<li><a href="design_principles_book.pdf" target="_blank" rel="noopener">Robert Martin's Notes</a></li>
+<li><a href="https://www.thoughtworks.com/en-au/insights/blog/composition-vs-inheritance-how-choose" target="_blank" rel="noopener">External Link 1</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Composition_over_inheritance" target="_blank" rel="noopener">External Link II</a></li>
+</ul>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Before you move on:</h3>
+<h3>callout</h3>
+<h3>Activities</h3>
+<ul>
+<li><strong>(2)</strong> Critically comment on the use of inheritance in programming languages. Argue a case for or against its use.&nbsp;</li>
+</ul>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;"><hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;"><!-- End Suggested Layout -->
+<div style="padding-top: 20px; clear: both;"><a title="Previous" class="navrep-button" style="float: left;" href="#" target="_parent"> <i class="fa fa-chevron-left"></i> Previous </a> <a title="Next" class="navrep-button" style="float: right;" href="#" target="_parent"> Next <i class="fa fa-chevron-right"></i> </a></div>
+<div><iframe src="/content/deakin-embedded-comments/embedded-comments-loader.html?v=20201006" style="position: absolute; left: -9999px; top: -9999px; width: 0px; height: 0px;"></iframe> <!--FORUMVARIABLESTART-->
+<div style="display: none;" data-forumname="null"></div>
+<!--FORUMVARIABLEEND--></div>
+<p>
+<script src="https://s.brightspace.com/lib/jquery/2.2.4/jquery.min.js?version=202001061835" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe_templates/sebe_cd.js?v=20210208"></script>
+<script type="text/javascript" src="/content/deakinscripts/moment/moment.2.21.js"></script>
+<script type="text/javascript" src="/content/deakin-embedded-comments/embeddedComments.js?v=20210208"></script>
+</p>
+</body></html>

@@ -1,0 +1,12 @@
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/bin/Debug/netcoreapp3.1/7.3.deps.json
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/bin/Debug/netcoreapp3.1/7.3.runtimeconfig.json
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/bin/Debug/netcoreapp3.1/7.3.runtimeconfig.dev.json
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/bin/Debug/netcoreapp3.1/7.3.dll
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/bin/Debug/netcoreapp3.1/7.3.pdb
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.csprojAssemblyReference.cache
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.AssemblyInfoInputs.cache
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.AssemblyInfo.cs
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.csproj.CoreCompileInputs.cache
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.dll
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.pdb
+/Users/nayyarz/Desktop/SIT232_T2_2020/CookFolder/W7/Demo_Lecture/7.3/obj/Debug/netcoreapp3.1/7.3.genruntimeconfig.cache

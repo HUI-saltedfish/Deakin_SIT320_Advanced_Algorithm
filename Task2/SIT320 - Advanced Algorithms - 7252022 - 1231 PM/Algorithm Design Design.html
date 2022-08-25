@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>SEBE CD TEMPLATE</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?version=202001061835" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe_templates/sebe_cd.css?v=20210208">
+    <link rel="stylesheet" type="text/css" href="/content/deakin-embedded-comments/embeddedComments.css?v=20210208">
+</head>
+
+<body class="basic" style="font-family: verdana, sans-serif;font-size: 12px;">
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p><strong>Read this first</strong></p>
+<p>This template was created by the SEBE Design Pod and is available for your use when creating your content. The template provides a variety of options for styling page text and images. Some tips on using this template:</p>
+<ul>
+<li>The yellow instruction boxes are only visible in edit mode and do not need to be deleted.</li>
+<li>Use the designated heading format i.e. Heading 1 etc. for all headings and subheadings so that the template displays correctly.</li>
+<li>Select and delete the content that you do not need.</li>
+<li>Ensure there is a &lt;HR&gt; (Insert Line from the dropdown next to the Insert Quicklink), between each content type to ensure correct formatting of the next content type.</li>
+</ul>
+<p>There are additional layout options available in the '_SEBE_Advanced' template.</p>
+<p><strong>Important!</strong> This template is designed and tested to work with correctly formatted HTML code. Any deviation from this may result in the template failing to render as it should. For any assistance with HTML formatting, please contact <strong>SEBE CloudDeakin Support</strong>.</p>
+<p>For more information about this template, visit the <strong>Making the most of web pages in SEBE CloudDeakin</strong> page in the <strong>Designing Your Unit</strong> section of the <strong>SEBE Staff Hub</strong>.</p>
+</div>
+<h3>blue</h3>
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p>By changing the Heading 3 above to <strong>default</strong>, <b>blue</b>, <b>turquoise</b> or <b>pink</b> you can change the colour theme of your SEBE CloudDeakin template page.</p>
+<p>When this page is published the Heading 3 above will be removed, but it will still be here in edit mode if you wish to change the colour theme.</p>
+<p>There is no need to delete these instructions or the Heading 3 above. They are only visible in edit mode and will be removed when your page is published.</p>
+</div>
+<!-- Begin Suggested Layout -->
+<h3>banner</h3>
+<div class="sebe_instructions" style="font-size: 13px; background: lemonchiffon; padding: .4rem 1rem; border: 1px solid;">
+<p>By using the keyword 'banner' as a &lt;H3&gt; (Heading 3), an image below that heading until the next &lt;HR&gt; (Insert Line from the dropdown next to the Insert Quicklink) will be included inside an Image Container that will render the image as a banner image.</p>
+<p>There is no need to delete these instructions or the Heading 3 above. They are only visible in edit mode and will be removed when your page is published.</p>
+</div>
+<p><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.feDqH4OO1gIbZpmZfhzp7QHaHa%26pid%3DApi&amp;f=1" alt="Algorithms: Design and Analysis, Part 1 | Stanford Online" style="max-width: 100%;" data-d2l-editor-default-img-style="true"></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Dependency Inversion Principle</h3>
+<p>Dependencies exhibits relationship (associations) among various entities in our computer program. You can have a package which depends on several other packages. How many times while installing a package in python requires us to install several other packages? Well, quite often. You are never suppose to write your program in vacuum. And your solution should not re-invent the wheel. So you are expected to re-use as much code that is already written/tested and used. But this does create a dependency, which is not bad as such, but it can creates problems for you, if later some of the code that your code is dependent on is modified. In theory, you will practice a safe approach, making sure that the code on which you depend on never changes, but it can happen.</p>
+<p>So is dependency bad? Well, not really. But you should at least do two things to come-up with a stable design:</p>
+<ul>
+<li>Be mindful of the fact that dependencies exists in your program. If possible, make them explicit. Make sure you identify every single dependency in your program.</li>
+<li>Secondly, make sure that your program is dependent on Abstract elements (e.g., classes) and Not on Concrete classes (a non-abstract class).</li>
+</ul>
+<p>Let us hear from Ollie:</p>
+<h3>lightbox</h3>
+<p><img src="PastedImage_08hwmoafkzbun23jkce71uljm30ayk3u001143113629.jpg" alt="Useful Information" title="Siggi the Studious Stork" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="72" height="72"></p>
+<p>Abstraction plays a key role in our program design. If I say that I travel to Burwood campus every day - travelling here is used in an abstract manner. How exactly I travel is not abstract E.g., I can travel to campus in car, or take a bus or ride a bicycle. Identification of such abstractions goes a long way in making a stable design.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>Ollie is spot-on. We are taught abstract classes as nothing by a programming construct. But how do we use them in principle is usually not made clear. Our handling of abstract classes can play a pivotal role in making a stable design. The idea is that, we should aim to depend only on the abstract classes, and this forms the basis of dependency inversion principle.</p>
+<p>Let us suppose that we have dependency of the following form in our design:</p>
+<p><img src="File_fupg1i0hg0eafr7pzncocm25eexzy18d001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="300"></p>
+<p>It can be seen that in our program, we hold a direct reference of <strong>Button</strong> class in our <strong>Lamp</strong> class. This has some obvious issues, e.g.,&nbsp;any change to Lamp class will require a corresponding change to (or at least a recompilation of) Button class, and it becomes difficult to reuse either component alone, for example a Button to start a motor, etc.</p>
+<p>The problem here is that <strong>Lamp</strong> or <strong>Button</strong> classes are Concrete classes (not Abstract). But how can we modify our design such that our classes depends on abstract concepts (embodied through either interfaces or abstract classes). Well how about we make an interface, which defines the functionality of any <strong>Lamp</strong>. And we make our <strong>Button</strong> class to depends on this interface, as shown in the following figure:</p>
+<p><img src="File_twvtjspbj7uh5uidljz39hv5812o5k9n001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="300"></p>
+<p>In our new design, we have a <strong>Lamp</strong> class that is derived from the <strong>SwitchableDevice</strong> interface. The good thing about this design is that, now we can not only have a <strong>Lamp</strong> (say run on electricity), but perhaps could have a <strong>Lamp</strong> running on say batteries, or on solar, etc. You can easily extend your design. We can further extend our design to make it even more elegant by making an abstract Button class as well. This abstract Button class will depend on abstract Lamp class, as shown in the following figure:</p>
+<p><img src="File_m9mw1fz8gp3oigu0tu3gd34p9zo3fyjw001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="300"></p>
+<p>Now, we can have any form of Button implementing the abstract Button class. Simply put, we have replaced our dependencies to point up (i.e., dependencies exists on the abstract concepts), while the horizontal dependencies that exists are between abstract concepts only. So, what is DIP exactly? It is defined in the context of program design as follows:</p>
+<h3>callout</h3>
+<p>The <strong>DIP</strong> requires that high level modules should not depend on low level modules, both should depend on abstraction. Also, abstraction should not depend on details, details should depend on abstractions.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>If we remember from early days on Procedural programming, or a typical program design, we have the following:</p>
+<p><img src="File_o46fgmbg2pct3kztu5cgkc9cv9dktoqn001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="500"></p>
+<p>This is a terrible design, where we have high-level modules (functions or classes) depending lower-level ones. If say <strong>Detail 3</strong> is modified, this will have a ripple effect of changes all to the top. We can enforce <strong>DIP</strong> as we did in the earlier example of Button and Lamp design. For example, following design is much better:</p>
+<p><img src="File_t7j9kdmpw5ea62rsg20kpeyk268wjd60001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="400"></p>
+<h3>lightbox</h3>
+<p><img src="PastedImage_08hwmoafkzbun23jkce71uljm30ayk3u001143113629.jpg" alt="Useful Information" title="Siggi the Studious Stork" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="72" height="72"></p>
+<p>Abstract things change infrequently, whereas concrete implementations can change often over system’s lifetime.&nbsp; Abstraction provide hinge-points in a design, where the design can bend or be extended, via the <strong>OCP (Open-closed Principle)</strong>&nbsp;(in concert with the <strong>LSP (Liskov Substitution Principle)</strong>).</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>Again, Ollie is spot-on. However, we need to discuss <strong>OCP</strong> and <strong>LSP</strong> which plays an important role in enforcing <strong>DIP</strong>.&nbsp;</p>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Open-Closed Principle</h3>
+<h3>callout</h3>
+<p>The <strong>OCP</strong> requires that Classes should be open for extension, but closed for modification.</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p>What does this mean? Well, a class is open for extension if we can add functionality to it easily: e.g. expand the set of operations or add fields to its data structures. On the other hand, a class is closed for modification if it allow its behaviour to be extended without modifying its source-code.</p>
+<p>As a programmer, we have a tendency to think in terms of classes, and Open-Closed Principle, in a way looks trivial to us. However, you will only enforce it if you know it, and therefore, is important to be mindful of the principle. E.g., let us say that we have been asked to write a program which prints the area of a shape - and we have been told that the shape is a rectangle. We can easily write the code as:</p>
+<p><img src="File_jvpda0uzvwi8fiopjmgtfvt3hytwmr0e001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="300"></p>
+<p>Let us suppose that now, our client has a changed her requirements, and we are expected to operate on Circle shapes as well. The trouble is that your AreaCalculator class is NOT open for extension for IS closed for modification, as you will be modifying the AreaCalculator class as:</p>
+<p><img src="File_nu8otevkuxhy0rkcnh3ei63ccsl12oky001145110962.jpg" data-d2l-editor-default-img-style="true" style="max-width: 100%;" width="300"></p>
+<p>Much natural design option would have been is to create an abstract shape class, and then created derived Rectangle and Circle classes. The <strong>OCP</strong> is normally implemented with <strong>Inheritance</strong>/<strong>Polymorphism</strong> in OO systems.</p>
+<h3>lightbox</h3>
+<p><img src="PastedImage_08hwmoafkzbun23jkce71uljm30ayk3u001143113629.jpg" alt="Useful Information" title="Siggi the Studious Stork" style="max-width: 100%;" data-d2l-editor-default-img-style="true" width="72" height="72"></p>
+<p>We should aim to write code in a way that does not need a drastic change anytime the requirement of your program changes.&nbsp;</p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Explaining in Video&nbsp;</h3>
+<p>Have a look at the following video if things are not clear at this time:</p>
+<p><iframe src="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1192864&amp;type=lti&amp;rCode=DeakinUniversity-3309292" title="SIT320_Reduction_of_Dependencies_and_OpenClosed_Principle" allowfullscreen="" allow="microphone *; camera *; autoplay *" height="402" width="608"></iframe></p>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<p></p>
+<h3>Read more at:</h3>
+<ul>
+<li><a href="design_principles_book.pdf" target="_blank" rel="noopener">Robert Martin's Notes</a></li>
+</ul>
+<p></p>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;">
+<h3>Before you move on:</h3>
+<h3>callout</h3>
+<h3>Activities</h3>
+<ul>
+<li><strong>(1)</strong> In SIT221, for task 3.2D, you were expected to implement various sorting techniques. You were given some code, specifically: <strong>Vector.cs</strong>, <strong>ISorter.cs</strong>. We have given you a dummy solution file <strong>MergeSortBottomUp.cs </strong>(you can create dummy <strong>MergeSortTopDown.cs </strong>yourself). Given these three files, analyse the code with-in and identify the DIP and OCP principles, if they exist. If they do not, you can modify the code to demonstrate your understanding of DIP and OCP. Make sure you can draw a valid UML to demonstrate these principles. You can access the files here: <a href="Code%20Handout%202.zip" target="_blank" rel="noopener">Code Handout</a>. Attaching the task 3.2D for completeness sake or in case you have lost access to 221 ontrack: <a href="Practical%20Task%203.2D.docx" target="_blank" rel="noopener">3.2D from SIT221</a>&nbsp;</li>
+</ul>
+<hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;"><hr style="width: 100%; height: auto; color: #ffffff; border: 1px inset #cccccc;"><!-- End Suggested Layout -->
+<div style="padding-top: 20px; clear: both;"><a title="Previous" class="navrep-button" style="float: left;" href="#" target="_parent"> <i class="fa fa-chevron-left"></i> Previous </a> <a title="Next" class="navrep-button" style="float: right;" href="#" target="_parent"> Next <i class="fa fa-chevron-right"></i> </a></div>
+<div><iframe src="/content/deakin-embedded-comments/embedded-comments-loader.html?v=20201006" style="position: absolute; left: -9999px; top: -9999px; width: 0px; height: 0px;"></iframe> <!--FORUMVARIABLESTART-->
+<div style="display: none;" data-forumname="null"></div>
+<!--FORUMVARIABLEEND--></div>
+<p>
+<script src="https://s.brightspace.com/lib/jquery/2.2.4/jquery.min.js?version=202001061835" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
+<script src="/content/enforced/384049-SEBE_LST_01/z-intmedia-donotedit/templates/sebe_templates/sebe_cd.js?v=20210208"></script>
+<script type="text/javascript" src="/content/deakinscripts/moment/moment.2.21.js"></script>
+<script type="text/javascript" src="/content/deakin-embedded-comments/embeddedComments.js?v=20210208"></script>
+</p>
+</body></html>
